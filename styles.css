@@ -63,4 +63,37 @@
 }
 
 
+.form-group {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
 
+}
+
+.tekst-area{
+  max-width:400px;
+  min-width:400px;
+  min-height: 150px;
+  max-height:150px;
+}
+
+.text-control {
+  height: 40px;
+  border-style: solid;
+  border-radius: 8px;
+
+}
+
+.background-image {
+
+  width:450px;
+  height:300px;
+  background-image:url( https://1.allegroimg.com/s512/0382af/f680590f43e58352187ff81f38a1/ROZCIAGLIWY-LUDZIK-wesoly-zolty-5-5-CM-wytrzymaly);
+  background-repeat: no-repeat;
+}
+
+.background-image:hover{
+
+background-image: url(https://majdanzabawek.pl/16968-large_default/bendable-smiler.jpg);
+}

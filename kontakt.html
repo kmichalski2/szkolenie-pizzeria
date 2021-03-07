@@ -17,22 +17,24 @@
       <h1>Kontakt</h1>
 
       <form action="index.html" method="POST" validate>
-        <div>
+        <div class="form-group center">
             <lbel for="firstName">Imię</lbel>
             <input id="firstName" type="text" required>
         </div>
-        <div>
+        <div class="form-group center">
             <lbel for="lastName">Nazwisko</lbel>
             <input id="lastName" type="text" required>
         </div>
-        <div>
+        <div class="form-group center">
             <lbel for="email">Adres e-mail</lbel>
             <input id="email" type="text" required>
         </div>
-        <div>
+        <div class="form-group center">
             <lbel for="phonenumber">Telefon</lbel>
             <input id="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
         </div>
+
+        <h1> Wybierz jedzonko:</h>
         <div>
             <input type="checkbox" id="pizzaFood" name="pizzaFood" value="Pizza">
             <label for="pizzaFood"> Pizza</label>
@@ -62,10 +64,7 @@
 
         <h3>Uwagi</h3>
 
-            <textarea></textarea>
-
-        
-        
+            <textarea class="tekst-area"></textarea>
 
         <div>
             <button type="submit"> Wyślij! </button>
