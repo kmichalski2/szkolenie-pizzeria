@@ -1,0 +1,64 @@
+<html>
+  <head>
+    <title>Dialog - Biuro tłumaczeń - Kontakt</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+ </head>
+   <body>
+    <header class="background-header"><img src="LogoDialog.jpg" width="150">
+       <br></br>
+       <nav class="link">
+        <a href="index.html">Strona główna</a>
+        <a href="onas.html">O nas</a>
+        <a href="kontakt.html">Kontakt</a>
+        </nav>
+     </header>
+     <main class="center">
+       <h2>Dialog Biuro Tłumaczeń Kontakt </h2>
+       <br></br>
+      
+       <Form action="index.html" method="POST" validate>
+       <div>
+         <label for="firstName">Imię</label>
+         <input id="firstName" name="FirstName" type="text">
+       </div>
+       <div>
+        <label for="lastName">Nazwisko</label>
+        <input id="lastName" name="lastName" type="text">
+       </div>
+      <div>
+        <label for="Email">E-Mail</label>
+        <input id="Email" name="Email" type="email" required>
+      </div>
+     
+        <div>
+        <for="telefon">Telefon</label>
+        <input id="telefon" name="telefon" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+      </div>
+      <div>
+        <label for="date">Data</label>
+        <input id="date" name="date" type="date" required>
+      </div>
+      <div>
+        <input type="checkbox" id="translation1" name="service" value="WrittenTranslation"> 
+        <label for="translation1">Tłumaczenie pisemne</label>
+      </div>
+      <div>
+        <input type="checkbox" id="translation2" name="service" value="SpokenTranslation"> 
+        <label for="translation2">Tłumaczenie ustne</label>
+      </div>
+      <div>
+        <input type="checkbox" id="translation3" name="service" value="Checking"> 
+        <label for="translation3">Korekta</label>
+      </div>
+      <div>
+        <input type="checkbox" id="translation4" name="service" value="Textwritting"> 
+        <label for="translation4">Pisanie tekstów</label>
+      </div>
+      <div>
+        <button type="submit">Wyślij</button>
+      </div>
+     
+    </main>
+<footer><br>(C) 2021 by Marcin Sosna, Wszelkie prawa zastrzeżone!</br></footer>
+   </body>
+</html>

@@ -1,0 +1,47 @@
+.background-header {
+    display: block;
+    background-color: rgb(50, 190, 172);
+    
+    display: flex;
+    justify-content: space-between; align-content: center;
+
+    color: yellow;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Calibri;
+    text-decoration: none;
+    margin: 10px;
+  }
+  .link {
+    color: blue;
+    font-size: 20pt;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start; align-content: center;
+    
+  }
+  link:hover {
+    background-color: white;
+  }
+  .navigation {
+    text-align: center;
+        }
+
+  .center {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .container {
+    width: 1024px;
+    text-align: center;
+  }
+  a{
+    color: yellow;
+  }
+  .table {
+    border-width: 10px;
+    border-color: orange;
+    border-style: dotted;
+    border-spacing: 0px;
+    }
+ 
