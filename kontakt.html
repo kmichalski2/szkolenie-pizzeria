@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title> Super pizzeria</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="background-header"> 
+    <img src="pizza.png" width="150">
+      <nav class="navigation">
+        <a href="index.html" class="link"> --Strona główna-- </a>
+        <a href="kontakt.html" class="link"> --Kontakt-- </a>
+      <nav>
+      </header>
+    <main class="container center"> 
+      <h1> Kontakt </h1>
+        <form action="http://google.pl" method="POST">
+        <fieldset>
+            <label for="firstName">Imię</label>
+            <input type="text" id="firstName">
+        </fieldset>
+        <fieldset>
+                <label for="lastName">Nazwisko</label>
+                <input type="text" id="lastName">
+        </fieldset>
+        <fieldset>
+                <label for="email">Mail</label>
+                <input type="email" id="email">
+        </fieldset>
+        <fieldset>
+                <label for="phone">Telefon</label>
+                <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" id="phone" required>
+        </fieldset>
+        <fieldset>
+            <h3>Wybierz pizzę</h3>
+            <input type="checkbox" name="pizza" id="margarita"> Margarita
+            <input type="checkbox" name="pizza" id="neopolitana"> Neapolitańska
+            <input type="checkbox" name="pizza" id="hawaj"> Hawajska
+        </fieldset>
+        <fieldset>
+                <h3>Płatność</h3>
+                <input type="radio" name="payment" id="cash"> Gotówka
+                <input type="radio" name="payment" id="card"> Karta
+               
+            </fieldset><br>
+
+            <textarea>Wpisz uwagi</textarea><br><br>
+
+        <button class="button" type="submit">Wyślij!</button>
+
+
+        </form>
+    </main>
+    
+  </body>
+</html>
