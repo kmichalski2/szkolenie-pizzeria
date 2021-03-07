@@ -91,3 +91,24 @@ a {
     background-color: #598EEB;
     cursor: pointer;
   }
+
+  .form-group {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .form-group-checkbox {
+    justify-content: flex-start;
+  }
+
+  .form-group-checkbox input {
+    margin-right: 10px;
+  }
+
+  .textarea {
+    max-width: 400px;
+    min-width: 400px;
+    min-height: 150px;
+  }
