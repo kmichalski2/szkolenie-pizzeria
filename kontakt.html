@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Pizzeria Izy</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="background-green">
+      <img width="80" src="https://st2.depositphotos.com/1588812/6826/v/950/depositphotos_68261337-stock-illustration-vector-logo-slice-of-pizza.jpg">
+      <nav class="navigation">
+        <a href="index.html" class="link">Strona główna </a>
+        <a href="kontakt.html" class="link">Kontakt</a>
+        <a href="onas.html" class="link">O nas :)</a>
+      </nav>
+    
+    </header>
+    <main class="container center">
+      <h1>Kontakt</h1>
+
+      <form action="index.html" method="POST" validate>
+        <div>
+            <lbel for="firstName">Imię</lbel>
+            <input id="firstName" type="text" required>
+        </div>
+        <div>
+            <lbel for="lastName">Nazwisko</lbel>
+            <input id="lastName" type="text" required>
+        </div>
+        <div>
+            <lbel for="email">Adres e-mail</lbel>
+            <input id="email" type="text" required>
+        </div>
+        <div>
+            <lbel for="phonenumber">Telefon</lbel>
+            <input id="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+        </div>
+        <div>
+            <input type="checkbox" id="pizzaFood" name="pizzaFood" value="Pizza">
+            <label for="pizzaFood"> Pizza</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pepsi" name="pepsi" value="pepsi">
+            <label for="pepsi"> Pepsi</label>
+        </div>
+
+        <h3>Płatność
+            <div>
+                <input type="radio" id="cash" name="payment" value="Cash">
+                <label for="cash">Gotówka</label>
+                <input type="radio" id="cart" name="payment" value="cart">
+                <label for="cart">Karta</label>
+            </div>
+        </h3>
+
+        <h3>Termin dostawy
+            <div>
+                
+                <label for="date">Data dostawy</label>
+                <input type="date" id="date">
+               </div>
+
+        </h3>
+
+        <h3>Uwagi</h3>
+
+            <textarea></textarea>
+
+        
+        
+
+        <div>
+            <button type="submit"> Wyślij! </button>
+        </div>
+      </form>
+    </main>
+    <footer> <a href="#">Wszelkie prawa zastrzeżone</a></footer>
+  </body>
+</html>
