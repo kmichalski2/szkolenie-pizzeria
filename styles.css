@@ -41,7 +41,7 @@ a {
   }
   
   .container {
-    width: 1024px;
+    width: 90%;
     text-align: center;
   }
   
@@ -126,4 +126,51 @@ a {
   .text-control:focus {
     border: 2px solid #5763E6;
     outline: 0;
+  }
+
+  .background-image {
+    width: 500px;
+    height: 300px;
+    background-image: url('images/hippo1.jpeg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .background-image:hover {
+    background-image: url('images/hippo2.jpg');
+  }
+
+  @media screen and (max-width: 768px) {
+      .form-group {
+        display: block;
+        text-align: left;
+      }
+
+      .text-control {
+        width: 100%;
+        margin-top: 10px;
+      }
+  }
+
+  /* Tablety */
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .header {
+      background-color: blue;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .header {
+      background-color: green;
+    }
   }
