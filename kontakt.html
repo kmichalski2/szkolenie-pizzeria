@@ -1,0 +1,79 @@
+
+<html>
+    <head>
+      <title>Pizzeria Kamila</title>
+      <link href="styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+      <header class="header">
+        <img width="80" src="https://st2.depositphotos.com/1588812/6826/v/950/depositphotos_68261337-stock-illustration-vector-logo-slice-of-pizza.jpg">
+        <nav class="navigation">
+          <a href="index.html" class="link">Strona</a> 
+          <a href="onas.html" class="link">O nas</a> 
+          <a href="kontakt.html" class="link">Kontakt</a>
+        </nav>
+      </header>
+      <main class="container center">
+        <h1>Kontakt</h1>
+
+        <form action="index.html" method="POST" validate>
+            <div class="form-group">
+                <label for="firstName">Imię</label>
+                <input id="firstName" type="text" required>
+            </div>
+            <div>
+                <label for="lastName">Nazwisko</label>
+                <input id="lastName" type="text" required>
+            </div>
+            <div>
+                <label for="email">Adres E-mail</label>
+                <input id="email" type="email" required>
+            </div>
+            <div>
+                <label for="phonenumber">Numer telefonu</label>
+                <input id="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+            </div>
+            <h3>Wybierze jedzenie:</h3>
+            <div>
+                <input type="checkbox" id="pizzaFood" name="food" value="Pizza">
+                <label for="pizzaFood">Pizza</label>
+            </div>
+            <div>
+                <input type="checkbox" id="pizzaFunghi" name="food" value="Pizza Funghi">
+                <label for="pizzaFunghi">Pizza Funghi</label>
+            </div>
+            <div>
+                <input type="checkbox" id="pepsi" name="food" value="Pepsi">
+                <label for="pepsi">Pepsi</label>
+            </div>
+
+            <h3>Płatność</h3>
+            <div>
+                <input type="radio" id="cash" name="payment" value="Cash">
+                <label for="cash">Gotówka</label>
+                <input type="radio" id="card" name="payment" value="Card">
+                <label for="card">Karta</label>
+            </div>
+
+            <h3>Termin dostawy</h3>
+            <div>
+                <label for="date">Wybierz datę</label>
+                <input id="date" type="date">
+            </div>
+
+            <h3>Uwagi</h3>
+            <textarea>
+
+            </textarea>
+
+            <div>
+                <button class="button" type="submit">Wyślij!</button>
+            </div>
+        </form>
+      </main>
+      <footer class="footer">
+        <a href="#">Wszelkie prawa zastreżone</a> 
+      </footer>
+    </body>
+  </html>
+  
