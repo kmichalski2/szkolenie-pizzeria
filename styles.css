@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a {
@@ -96,6 +97,7 @@ a {
     width: 400px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 10px;
   }
 
@@ -111,4 +113,17 @@ a {
     max-width: 400px;
     min-width: 400px;
     min-height: 150px;
+  }
+
+  .text-control {
+    height: 40px;
+    border: 1px solid #E4E4E4;
+    border-radius: 8px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .text-control:focus {
+    border: 2px solid #5763E6;
+    outline: 0;
   }

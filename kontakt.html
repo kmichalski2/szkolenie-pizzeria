@@ -19,19 +19,19 @@
         <form action="index.html" method="POST" validate>
             <div class="form-group center">
                 <label for="firstName">Imię</label>
-                <input id="firstName" type="text" required>
+                <input class="text-control" id="firstName" type="text" required>
             </div>
             <div class="form-group center">
                 <label for="lastName">Nazwisko</label>
-                <input id="lastName" type="text" required>
+                <input class="text-control" id="lastName" type="text" required>
             </div>
             <div class="form-group center">
                 <label for="email">Adres E-mail</label>
-                <input id="email" type="email" required>
+                <input class="text-control" id="email" type="email" required>
             </div>
             <div class="form-group center">
                 <label for="phonenumber">Numer telefonu</label>
-                <input id="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
+                <input class="text-control" id="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required>
             </div>
             <h3>Wybierze jedzenie:</h3>
             <div class="form-group form-group-checkbox center"> 
@@ -40,7 +40,7 @@
             </div>
             <div class="form-group form-group-checkbox center">
                 <input type="checkbox" id="pizzaFunghi" name="food" value="Pizza Funghi">
-                <label for="pizzaFunghi">Pizza Funghi</label>
+                <label  for="pizzaFunghi">Pizza Funghi</label>
             </div>
             <div class="form-group form-group-checkbox center">
                 <input type="checkbox" id="pepsi" name="food" value="Pepsi">
@@ -60,11 +60,11 @@
             <h3>Termin dostawy</h3>
             <div class="form-group center">
                 <label for="date">Wybierz datę</label>
-                <input id="date" type="date">
+                <input id="date" class="text-control" type="date">
             </div>
 
             <h3>Uwagi</h3>
-            <textarea class="textarea">
+            <textarea class="textarea text-control">
 
             </textarea>
 
@@ -73,6 +73,7 @@
             </div>
         </form>
       </main>
+      
       <footer class="footer">
         <a href="#">Wszelkie prawa zastreżone</a> 
       </footer>
