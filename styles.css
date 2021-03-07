@@ -141,8 +141,8 @@ input[type=tel]
 input[type=email]
 {
   background-color: #b4146c; 
-  padding: 12px 20px;
-  width: 300;
+  display: flex;
+  justify-content: space-between;
 }
 textarea{
   background-color: #f5ae29;
